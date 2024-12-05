@@ -61,16 +61,16 @@ Hubungkan pin STM32F401 ke ENC28J60 sesuai tabel berikut:
    - PA2 : USART2_TX
    - PA3 : USART2_RX
 
-![GPIO](img/GPIO Setting.jpg)
-![Category 1](img/Category 1.jpg)
-![Category 2](img/Category 2.jpg)
+![GPIO](img/GPIO_Setting.jpg)
+![Category 1](img/Category_1.jpg)
+![Category 2](img/Category_2.jpg)
    
 ### 2. **Clock Configuration**
 - Set the system clock using **HSE/PLL** for high performance.
 
-![Clock Configuration 1](img/Clock Configuration 1.jpg)
-![Clock Configuration 2](img/Clock Configuration 2.jpg)
-![Sistem view](img/Sistem view.jpg)
+![Clock Configuration 1](img/Clock_Configuration_1.jpg)
+![Clock Configuration 2](img/Clock_Configuration_2.jpg)
+![Sistem view](img/System_view.jpg)
 
 ---
 
