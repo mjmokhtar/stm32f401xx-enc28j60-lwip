@@ -29,6 +29,8 @@ Hubungkan pin STM32F401 ke ENC28J60 sesuai tabel berikut:
 **Note:**
 - Make sure the ENC28J60 uses a 3.3V power supply.
 
+![Wiring Schematic](img/Schematic.jpg)
+
 ---
 
 ## 🛠️ Software Installation
@@ -44,7 +46,7 @@ Hubungkan pin STM32F401 ke ENC28J60 sesuai tabel berikut:
 
 ## ⚙️ STM32 Project Configuration
 
-### 1. **Setting SPI**
+### **Setting SPI and USART**
 1. Open **STM32CubeMX** and create a new project.
 2. Enable **SPI1**:
    - Mode: *Full Duplex Master*
@@ -55,13 +57,20 @@ Hubungkan pin STM32F401 ke ENC28J60 sesuai tabel berikut:
    - PA7: SPI1_MOSI
    - PA4: SPI1_CS
 4. Enable clock for GPIO and SPI.
-5. Enable pins UART for debuging :
+5. Enable pins USART for debuging :
    - PA2 : USART2_TX
    - PA3 : USART2_RX
 
+![GPIO](img/GPIO Setting.jpg)
+![Category 1](img/Category 1.jpg)
+![Category 2](img/Category 2.jpg)
    
 ### 2. **Clock Configuration**
 - Set the system clock using **HSE/PLL** for high performance.
+
+![Clock Configuration 1](img/Clock Configuration 1.jpg)
+![Clock Configuration 2](img/Clock Configuration 2.jpg)
+![Sistem view](img/Sistem view.jpg)
 
 ---
 
@@ -80,7 +89,7 @@ Use functions from the ENC28J60 library to:
 2. Run the code on the STM32.
 3. Use an application such as **Wireshark** to monitor the data packets sent.
 
-4. ---
+---
 
 ## 🎉 Conclusion
 
