@@ -79,7 +79,7 @@ Hubungkan pin STM32F401 ke ENC28J60 sesuai tabel berikut:
 Use functions from the ENC28J60 library to:
 
 - Module initialization
-- Sending data packets via Ethernet
+- Sending data packets via Ethernet you can see in file tutorial.md
 
 ---
 
